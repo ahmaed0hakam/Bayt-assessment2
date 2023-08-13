@@ -34,8 +34,7 @@ var nestedObject2 = {
       stuff: {
         thing: {
           moreStuff: {
-            magicNumber: 44,
-            something: 'foo2'
+            tda: 33
           }
         }
       }
@@ -50,4 +49,4 @@ console.log(contains(nestedObject1, 'bar'));
 
 console.log(contains(nestedObject2, 'Ahmad'));
 console.log(contains(nestedObject2, 'ahmad'));
-console.log(contains(nestedObject2, '44'));
+console.log(contains(nestedObject2, '33'));
